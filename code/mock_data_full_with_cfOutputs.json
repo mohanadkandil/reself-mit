@@ -1,0 +1,292 @@
+{
+  "userId": "U_001",
+  "weeklyGoal": {
+    "weeklyId": "W_2024_07_01",
+    "createdAt": "2024-07-01T08:00:00Z",
+    "q1": "I want to feel more confident and prepared in advisor meetings.",
+    "q2": "I often feel nervous and forget to ask questions or explain things clearly.",
+    "q3": {
+      "action": [
+        "Write 3 main updates and questions before meetings",
+        "Bring a visual summary of key points",
+        "Start the meeting with a clear agenda",
+        "Practice updates out loud beforehand",
+        "Take notes on what feedback I get"
+      ],
+      "focus": [
+        "Pay attention to where my advisor seems confused",
+        "Notice when I rush or lose focus",
+        "Watch for nonverbal cues like nodding or frowning",
+        "Track whether I'm listening or zoning out",
+        "Notice how I respond under pressure"
+      ],
+      "interpretation": [
+        "Advisor wants me to lead the meeting, not just report",
+        "Short replies don't mean disapproval",
+        "Constructive feedback means engagement",
+        "Feeling nervous doesn't mean I'm unprepared",
+        "It's okay to ask again if I don't understand"
+      ],
+      "response": [
+        "Take a breath if I feel overwhelmed",
+        "Speak clearly even if unsure",
+        "Ask questions without overthinking",
+        "Keep a calm, open body posture",
+        "Pause instead of rushing to respond"
+      ]
+    }
+  },
+  "dailyReflection": {
+    "journalId": "J_2024_07_05",
+    "createdAt": "2024-07-05T22:15:00Z",
+    "weeklyId": "W_2024_07_01",
+    "text0": "I ran into my advisor unexpectedly and decided to share some updates.",
+    "text1": "I quickly summarized what I had worked on but forgot to mention key parts.",
+    "text2": "She said I should clarify certain sections and looked a bit distracted.",
+    "text3": "I thought she wa't interested and felt like I failed to present well.",
+    "text4": "I felt embarrassed afterward and avoided reviewing the feedback for hours."
+  },
+  "counterfactualResults": {
+    "journalId": "J_2024_07_05",
+    "generatedAt": "2024-07-05T22:20:00Z",
+    "pickedCf": {
+      "stage0": 0,
+      "stage1": 2,
+      "stage2": 1,
+      "stage3": 4,
+      "stage4": 3
+    },
+    "cfOutputs": {
+      "stage0": {
+        "generatedCfTexts": [
+          "I decided to wait until our scheduled meeting instead.",
+          "I sent her an email summarizing my updates in advance.",
+          "I asked if now was a good time before jumping in.",
+          "I reviewed my notes before deciding whether to approach.",
+          "I mentally rehearsed the key points before initiating."
+        ],
+        "similarityScores": {
+          "action": [
+            0.85,
+            0.88,
+            0.8,
+            0.76,
+            0.78
+          ],
+          "focus": [
+            0.7,
+            0.73,
+            0.68,
+            0.72,
+            0.74
+          ],
+          "interpretation": [
+            0.61,
+            0.63,
+            0.6,
+            0.62,
+            0.65
+          ],
+          "response": [
+            0.72,
+            0.7,
+            0.69,
+            0.71,
+            0.73
+          ]
+        },
+        "relevanceLabels": [
+          "high",
+          "high",
+          "medium",
+          "medium",
+          "medium"
+        ]
+      },
+      "stage1": {
+        "generatedCfTexts": [
+          "I opened with one strong takeaway before explaining details.",
+          "I asked her what she wanted to hear most about.",
+          "I shared a visual summary of the progress made so far.",
+          "I paused and asked if she had a few minutes first.",
+          "I walked through the key points slowly and confidently."
+        ],
+        "similarityScores": {
+          "action": [
+            0.9,
+            0.84,
+            0.93,
+            0.76,
+            0.88
+          ],
+          "focus": [
+            0.75,
+            0.72,
+            0.78,
+            0.67,
+            0.73
+          ],
+          "interpretation": [
+            0.63,
+            0.6,
+            0.62,
+            0.57,
+            0.65
+          ],
+          "response": [
+            0.76,
+            0.74,
+            0.79,
+            0.7,
+            0.77
+          ]
+        },
+        "relevanceLabels": [
+          "high",
+          "medium",
+          "high",
+          "medium",
+          "high"
+        ]
+      },
+      "stage2": {
+        "generatedCfTexts": [
+          "I watched her face to see what confused her most.",
+          "I focused on staying calm and engaged instead of overthinking.",
+          "I reminded myself to track which feedback felt unclear.",
+          "I noted which updates made her lean in or look curious.",
+          "I observed how she responded when I paused."
+        ],
+        "similarityScores": {
+          "action": [
+            0.7,
+            0.66,
+            0.68,
+            0.67,
+            0.69
+          ],
+          "focus": [
+            0.88,
+            0.91,
+            0.86,
+            0.84,
+            0.85
+          ],
+          "interpretation": [
+            0.65,
+            0.67,
+            0.63,
+            0.62,
+            0.6
+          ],
+          "response": [
+            0.73,
+            0.76,
+            0.74,
+            0.72,
+            0.71
+          ]
+        },
+        "relevanceLabels": [
+          "high",
+          "high",
+          "medium",
+          "medium",
+          "medium"
+        ]
+      },
+      "stage3": {
+        "generatedCfTexts": [
+          "I reminded myself she might be preoccupied, not uninterested.",
+          "I interpreted her feedback as helpful, not dismissive.",
+          "I told myself the effort still mattered even if the delivery was rough.",
+          "I assumed she wanted more details rather than less.",
+          "I viewed the chat as a quick touchpoint, not a full review."
+        ],
+        "similarityScores": {
+          "action": [
+            0.6,
+            0.63,
+            0.62,
+            0.61,
+            0.59
+          ],
+          "focus": [
+            0.68,
+            0.7,
+            0.69,
+            0.68,
+            0.7
+          ],
+          "interpretation": [
+            0.91,
+            0.9,
+            0.89,
+            0.92,
+            0.94
+          ],
+          "response": [
+            0.75,
+            0.74,
+            0.76,
+            0.73,
+            0.72
+          ]
+        },
+        "relevanceLabels": [
+          "high",
+          "high",
+          "high",
+          "high",
+          "high"
+        ]
+      },
+      "stage4": {
+        "generatedCfTexts": [
+          "I reviewed her feedback later and wrote down two key notes.",
+          "I told myself I could apply this next time instead of spiraling.",
+          "I reached out to a peer for perspective and support.",
+          "I reminded myself that awkward moments happen and moved on.",
+          "I paused for a moment, smiled, and got back to work."
+        ],
+        "similarityScores": {
+          "action": [
+            0.72,
+            0.7,
+            0.74,
+            0.75,
+            0.76
+          ],
+          "focus": [
+            0.7,
+            0.71,
+            0.72,
+            0.68,
+            0.69
+          ],
+          "interpretation": [
+            0.8,
+            0.83,
+            0.78,
+            0.82,
+            0.79
+          ],
+          "response": [
+            0.89,
+            0.91,
+            0.87,
+            0.9,
+            0.88
+          ]
+        },
+        "relevanceLabels": [
+          "high",
+          "high",
+          "high",
+          "high",
+          "high"
+        ]
+      }
+    }
+  }
+}
