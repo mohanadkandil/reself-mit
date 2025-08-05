@@ -6,7 +6,6 @@ import os
 import sys
 import json
 
-# Add the code directory to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'code'))
 
 from utils import call_claude
@@ -14,7 +13,6 @@ from prompt import prompt
 
 app = FastAPI(title="Counterfactual Generation API", version="1.0.0")
 
-# Add CORS middleware to allow frontend requests
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -72,7 +70,6 @@ def generate_counterfactuals_with_context(text: str, metadata: Optional[RequestM
     Generate 5 counterfactuals for the given text using enhanced context from metadata.
     """
     try:
-        # Use context-aware generation if metadata is available
         if metadata and metadata.questions and metadata.weeklyPlan and metadata.selectedQuestionIndex is not None:
             return generate_contextual_counterfactuals(text, metadata)
         else:
@@ -108,7 +105,6 @@ CURRENT EMOTIONAL REGULATION SESSION:
 All 5 responses from this session:
 """
         
-        # Add all questions and responses for context
         for i, q in enumerate(metadata.questions):
             enhanced_prompt += f"{i+1}. {q.question}\n   Response: {q.transcription}\n\n"
         
